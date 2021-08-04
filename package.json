@@ -1,0 +1,25 @@
+{
+  "name": "videochatapplication",
+  "version": "1.0.0",
+  "description": "webrtc video chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elyas-nawabi/WebRTCApp.git"
+  },
+  "author": "M.Elyas Nawabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elyas-nawabi/WebRTCApp/issues"
+  },
+  "homepage": "https://github.com/elyas-nawabi/WebRTCApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}
